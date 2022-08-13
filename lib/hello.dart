@@ -4,7 +4,7 @@ import 'game.dart';
 
 void main(){
   var game = Game();
-  int result = 1;
+  int result = 0;
   do{
     stdout.write('Please guess the number between 1 to 100 : ');
     var input = stdin.readLineSync();  //รับข้อมูลที่เราพิม
